@@ -1,6 +1,6 @@
 services:
   postgres:
-    container_name: threads
+    container_name: threads-db
     image: postgres
     ports:
       - 5432:5432
@@ -9,7 +9,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_DB: postgres
-      POSTGRES_PASSWORD: postgre1205
+      POSTGRES_PASSWORD: connecttodb
 
 volumes:
   postgres_data:
