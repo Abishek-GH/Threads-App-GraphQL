@@ -5,6 +5,5 @@ export const typeDefs = `#graphql
         lastName: String
         email: String!
         profileImageURL: String
-
     }
 `;
